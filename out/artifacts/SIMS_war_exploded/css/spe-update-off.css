@@ -1,0 +1,97 @@
+.main{
+    width: 88%;
+    height: 100%;
+    position: absolute;
+    top:65px;
+    left: 175px;
+
+}
+.mainbg{
+    width: 100%;
+    height: 100%;
+    background: url("../img/itembg.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-size: 100%;
+}
+.mainshadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.speupdate{
+    margin-top:50px;
+    margin-left: 250px;
+    width: 850px;
+    height: 600px;
+    background-color: rgba(255,255,255,0.8);
+    padding-top: 30px;
+}
+.spemessage{
+    width: 750px;
+    height: 50px;
+    background-color: #ccc;
+    line-height: 50px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.spemessage span{
+    margin-left: 30px;
+}
+.spemessage span:nth-child(1){
+    margin-left: 80px;
+}
+.update{
+    width: 800px;
+    height: 400px;
+    margin-left: 25px;
+    margin-top: 50px;
+    overflow: auto;
+}
+.update span{
+    margin-left: 75px;
+}
+.update h2{
+    display: inline-block;
+    margin-left: 325px;
+    margin-bottom: 25px;
+}
+.update table {
+    border-collapse: collapse;
+}
+th{
+    background-image: linear-gradient(to bottom,#fff,#ccc);
+}
+table,th,tr,td{
+    border: 1px solid #000;
+}
+th,td{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:nth-child(odd){
+    background-color: #fff;
+}
+.update input{
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+}
+#addbtn{
+    margin-top: 55px;
+    margin-left: 325px;
+    width: 90px;
+    height: 45px;
+}

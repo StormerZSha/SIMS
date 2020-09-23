@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    /*字体图标的引用*/
+    font-family: 'icomoon';
+    src: url('../img/fonts/icomoon.eot?zgs30b');
+    src: url('../img/fonts/icomoon.eot?zgs30b#iefix') format('embedded-opentype'),
+    url('../img/fonts/icomoon.ttf?zgs30b') format('truetype'),
+    url('../img/fonts/icomoon.woff?zgs30b') format('woff'),
+    url('../img/fonts/icomoon.svg?zgs30b#icomoon') format('svg');
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #0a96e1;
+    background-image:radial-gradient(closest-side, #29C4FD 30%, #0F6CB1 100%);
+}
+.registerdiv{
+    width: 850px;
+    height: 400px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom,#D1E3ED,#FFFFFF);
+    border: 1px solid #7DC4DB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -425px;
+    margin-top:-200px;
+    z-index: 2;
+}
+.space{
+    height: 500px;
+}
+
+.banner,.user,.pass,.email,#username,#usermessage,#password,#passmessage,.email,#email,#emailmessage,#registerbtn,#tologin,#code,#codeImage{
+    position: absolute;
+}
+.banner{
+    width: 200px;
+    height: 50px;
+    left: 50%;
+    margin-left: -100px;
+    top:20px;
+}
+#username,#password,#email,#code{
+    height: 40px;
+    width: 300px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.user,#username{
+    top: 100px;
+    left: 300px;
+}
+.user{
+    left: 260px;
+    line-height: 40px;
+}
+.user::before{
+    font-family: "icomoon";
+    content: "\e971";
+    font-size: 35px;
+}
+#usermessage,#passmessage,#emailmessage{
+    top: 100px;
+    left: 650px;
+}
+#passmessage{
+    top: 160px;
+}
+.pass,#password{
+    top: 160px;
+    left: 300px;
+}
+.pass{
+    left: 265px;
+    line-height: 40px;
+}
+.pass::before{
+    font-family: "icomoon";
+    content: "\e98f";
+    font-size: 35px;
+}
+#email{
+    top: 220px;
+    left: 300px;
+}
+.email::before{
+    font-family: "icomoon";
+    content: "\ea83";
+    font-size: 35px;
+}
+.email{
+    top: 220px;
+    left: 260px;
+    line-height: 40px;
+}
+#emailmessage{
+    top: 220px;
+}
+#code{
+    width: 150px;
+    height: 40px;
+    top:280px;
+    left: 300px;
+}
+#codeImage{
+    width: 130px;
+    height: 36px;
+    top: 282px;
+    left: 460px;
+}
+#registerbtn{
+    width: 120px;
+    height: 35px;
+    top: 340px;
+    left: 300px;
+    border: 1px solid #7DC4DB;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to top,#D1E3ED,#FFFFFF);
+}
+#tologin{
+    background-color: rgba(255,255,255,0);
+    border: 0;
+    outline: none;
+    top: 360px;
+    left: 720px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.foot{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background-color: #054e81;
+    z-index: 1;
+}
